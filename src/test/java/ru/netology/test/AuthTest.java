@@ -4,8 +4,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import ru.netology.data.DataHelper;
-import ru.netology.data.SQLHelper;
+import data.DataHelper;
+import data.SQLHelper;
 import ru.netology.page.LoginPage;
 
 import static com.codeborne.selenide.Selenide.open;
